@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Content Management System - Aileen Ballares</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		
+		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
+<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/old/fancybox.css?1234" />
+<link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/social-icons.css?buildtime=1234" media="screen,projection" />
+<link rel="stylesheet" type="text/css" href="files/main_style.css?1651151867" title="wsite-theme-css" />
+<link href='http://fonts.googleapis.com/css?family=Lato:400,300,300italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Vollkorn:400,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Yellowtail&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Karla:400,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Vollkorn:400,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<style type='text/css'>
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-family:"Droid Sans" !important;letter-spacing: 0px !important;}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {font-family:"Vollkorn" !important;font-weight:400 !important;}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {font-family:"Yellowtail" !important;text-transform:  none !important;letter-spacing: 1px !important;}
+.wsite-menu-default a {font-family:"Karla" !important;}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {font-family:"Vollkorn" !important;font-weight:400 !important;font-style:normal !important;letter-spacing: 0px !important;}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+@media screen and (min-width: 767px) {.wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {font-size:15px !important;line-height:29px !important;}
+#wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
+.wsite-elements.wsite-footer div.paragraph, .wsite-elements.wsite-footer p, .wsite-elements.wsite-footer .product-block .product-title, .wsite-elements.wsite-footer .product-description, .wsite-elements.wsite-footer .wsite-form-field label, .wsite-elements.wsite-footer .wsite-form-field label{}
+.wsite-elements.wsite-not-footer:not(.wsite-header-elements) h2, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-long .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-large .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-small .product-title, #wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+#wsite-content h2, #wsite-content .product-long .product-title, #wsite-content .product-large .product-title, #wsite-content .product-small .product-title, .blog-sidebar h2 {}
+.wsite-elements.wsite-footer h2, .wsite-elements.wsite-footer .product-long .product-title, .wsite-elements.wsite-footer .product-large .product-title, .wsite-elements.wsite-footer .product-small .product-title{}
+#wsite-title {}
+.wsite-menu-default a {}
+.wsite-menu a {}
+.wsite-image div, .wsite-caption {}
+.galleryCaptionInnerText {}
+.fancybox-title {}
+.wslide-caption-text {}
+.wsite-phone {}
+.wsite-headline,.wsite-header-section .wsite-content-title {font-size:40px !important;}
+.wsite-headline-paragraph,.wsite-header-section .paragraph {}
+.wsite-button-inner {}
+.wsite-not-footer blockquote {}
+.wsite-footer blockquote {}
+.blog-header h2 a {font-size:26px !important;}
+#wsite-content h2.wsite-product-title {}
+.wsite-product .wsite-product-price a {}
+}</style>
+<style>
+.wsite-background {background-image: url("/uploads/1/4/0/6/140651045/background-images/1928251627.jpeg") !important;background-repeat: no-repeat !important;background-position: 50% 50% !important;background-size: 100% !important;background-color: transparent !important;background: inherit;}
+body.wsite-background {background-attachment: fixed !important;}.wsite-background.wsite-custom-background{ background-size: cover !important}
+</style>
+		<script>
+var STATIC_BASE = '//cdn1.editmysite.com/';
+var ASSETS_BASE = '//cdn2.editmysite.com/';
+var STYLE_PREFIX = 'wsite';
+</script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+
+<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script>
+<script src="http://cdn2.editmysite.com/js/site/main.js?buildTime=1234"></script><script type="text/javascript">
+		function initCustomerAccountsModels() {
+					(function(){_W.setup_rpc({"url":"\/ajax\/api\/JsonRPC\/CustomerAccounts\/","actions":{"CustomerAccounts":[{"name":"login","len":2,"multiple":false,"standalone":false},{"name":"logout","len":0,"multiple":false,"standalone":false},{"name":"getSessionDetails","len":0,"multiple":false,"standalone":false},{"name":"getAccountDetails","len":0,"multiple":false,"standalone":false},{"name":"getOrders","len":0,"multiple":false,"standalone":false},{"name":"register","len":4,"multiple":false,"standalone":false},{"name":"emailExists","len":1,"multiple":false,"standalone":false},{"name":"passwordReset","len":1,"multiple":false,"standalone":false},{"name":"passwordUpdate","len":3,"multiple":false,"standalone":false},{"name":"validateSession","len":1,"multiple":false,"standalone":false}]},"namespace":"_W.CustomerAccounts.RPC"});
+_W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":"_W.CustomerAccounts.BackboneModelData","collection_namespace":"_W.CustomerAccounts.BackboneCollectionData","bootstrap_namespace":"_W.CustomerAccounts.BackboneBootstrap","models":{"CustomerAccounts":{"_class":"CustomerAccounts.Model.CustomerAccounts","defaults":null,"validation":null,"types":null,"idAttribute":null,"keydefs":null}},"collections":{"CustomerAccounts":{"_class":"CustomerAccounts.Collection.CustomerAccounts"}},"bootstrap":[]});
+})();
+		}
+		if(document.createEvent && document.addEventListener) {
+			var initEvt = document.createEvent('Event');
+			initEvt.initEvent('customerAccountsModelsInitialized', true, false);
+			document.dispatchEvent(initEvt);
+		} else if(document.documentElement.initCustomerAccountsModels === 0){
+			document.documentElement.initCustomerAccountsModels++
+		}
+		</script>
+		<script type="text/javascript"> _W = _W || {}; _W.securePrefix='UNSET'; </script><script>_W = _W || {};
+			_W.customerLocale = "en_US";
+			_W.storeName = null;
+			_W.isCheckoutReskin = false;
+			_W.storeCountry = "PH";
+			_W.storeCurrency = "PHP";
+			_W.storeEuPrivacyPolicyUrl = "";
+			com_currentSite = "943842013622594027";
+			com_userID = "140651045";</script><script type="text/javascript">_W.configDomain = "www.weebly.com";</script><script>_W.relinquish && _W.relinquish()</script>
+<script type="text/javascript" src="http://cdn2.editmysite.com/js/lang/en/stl.js?buildTime=1234&"></script><script> _W.themePlugins = [];</script><script type="text/javascript"> _W.recaptchaUrl = "https://www.google.com/recaptcha/api.js"; </script><script type="text/javascript"><!--
+	var IS_ARCHIVE = 1;
+	
+	function initFlyouts(){
+		initPublishedFlyoutMenus(
+			[{"id":"592315069953594267","title":"Home","url":"index.html","target":"","nav_menu":false,"nonclickable":false},{"id":"212694475976513952","title":"About","url":"about.html","target":"","nav_menu":false,"nonclickable":false},{"id":"996623669977760888","title":"Topics","url":"topics.html","target":"","nav_menu":false,"nonclickable":false},{"id":"554910955642177738","title":"Contact","url":"contact.html","target":"","nav_menu":false,"nonclickable":false},{"id":"363241354787801324","title":"REFERENCES","url":"references.html","target":"","nav_menu":false,"nonclickable":false}],
+			"818759308619399285",
+			'',
+			'active',
+			false,
+			{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
+			{}
+		)
+	}
+//-->
+</script>
+		
+		
+	</head>
+	<body class="header-page  wsite-page-content-management-system  full-width-off  wsite-theme-light"><!-- header-wrap -->
+	<div id="header-wrap">
+		<div id="header" class="content-wrap container">
+			<label id="nav-trigger" class="hamburger" for="mobile-trigger"></label>
+			<div id="logo"><span class="wsite-logo">
+
+	<a href="">
+	
+	<span id="wsite-title">Aileen Ballares</span>
+	
+	</a>
+
+</span></div>
+			<div id="header-right">
+				<div id="nav" class="nav"><ul class="wsite-menu-default">
+		<li id="pg592315069953594267" class="wsite-menu-item-wrap">
+			<a
+						href="index.html"
+				class="wsite-menu-item"
+				>
+				Home
+			</a>
+			
+		</li>
+		<li id="pg212694475976513952" class="wsite-menu-item-wrap">
+			<a
+						href="about.html"
+				class="wsite-menu-item"
+				>
+				About
+			</a>
+			
+		</li>
+		<li id="pg996623669977760888" class="wsite-menu-item-wrap">
+			<a
+						href="topics.html"
+				class="wsite-menu-item"
+				>
+				Topics
+			</a>
+			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-984153121359031294"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="data-formats.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Data Formats
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-239941257208132767"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="number-system.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Number System
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-474295220585493002"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="computer-hardware-system.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Computer Hardware System
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-867816148652391224"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="computer-platforms.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Computer Platforms
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-204997071786464749"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="operating-system.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Operating System
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-291278445712979055"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="database-platforms.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Database Platforms
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-818421575363860331"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="storage-platforms.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Storage Platforms
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-252208281381016079"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="application-platforms.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Application Platforms
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-532986414723403890"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="web-platforms.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Web Platforms
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-818759308619399285"
+	class="wsite-menu-subitem-wrap wsite-nav-current"
+	>
+	<a
+				href="content-management-system.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Content Management System
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-524927147244631885"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="media-platforms.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Media Platforms
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-970081432705930461"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="analytics.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Analytics
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-319357859102947705"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="security.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			SECURITY
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-605812359596842849"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="mobile-and-game-platforms.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			MOBILE AND GAME PLATFORMS
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+		</li>
+		<li id="pg554910955642177738" class="wsite-menu-item-wrap">
+			<a
+						href="contact.html"
+				class="wsite-menu-item"
+				>
+				Contact
+			</a>
+			
+		</li>
+		<li id="pg363241354787801324" class="wsite-menu-item-wrap">
+			<a
+						href="references.html"
+				class="wsite-menu-item"
+				>
+				REFERENCES
+			</a>
+			
+		</li>
+</ul>
+</div>
+			</div>
+		</div>
+	</div>
+	<!-- end header-wrap -->
+
+	<div id="wrapper">
+		<div id="wrapper-content">
+			<div id="navmobile" class="nav"><ul class="wsite-menu-default">
+		<li id="pg592315069953594267" class="wsite-menu-item-wrap">
+			<a
+						href="index.html"
+				class="wsite-menu-item"
+				>
+				Home
+			</a>
+			
+		</li>
+		<li id="pg212694475976513952" class="wsite-menu-item-wrap">
+			<a
+						href="about.html"
+				class="wsite-menu-item"
+				>
+				About
+			</a>
+			
+		</li>
+		<li id="pg996623669977760888" class="wsite-menu-item-wrap">
+			<a
+						href="topics.html"
+				class="wsite-menu-item"
+				>
+				Topics
+			</a>
+			<div class="wsite-menu-wrap" style="display:none">
+	<ul class="wsite-menu">
+		<li id="wsite-nav-984153121359031294"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="data-formats.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Data Formats
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-239941257208132767"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="number-system.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Number System
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-474295220585493002"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="computer-hardware-system.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Computer Hardware System
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-867816148652391224"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="computer-platforms.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Computer Platforms
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-204997071786464749"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="operating-system.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Operating System
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-291278445712979055"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="database-platforms.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Database Platforms
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-818421575363860331"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="storage-platforms.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Storage Platforms
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-252208281381016079"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="application-platforms.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Application Platforms
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-532986414723403890"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="web-platforms.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Web Platforms
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-818759308619399285"
+	class="wsite-menu-subitem-wrap wsite-nav-current"
+	>
+	<a
+				href="content-management-system.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Content Management System
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-524927147244631885"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="media-platforms.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Media Platforms
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-970081432705930461"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="analytics.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			Analytics
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-319357859102947705"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="security.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			SECURITY
+		</span>
+	</a>
+	
+</li>
+<li id="wsite-nav-605812359596842849"
+	class="wsite-menu-subitem-wrap "
+	>
+	<a
+				href="mobile-and-game-platforms.html"
+		class="wsite-menu-subitem"
+		>
+		<span class="wsite-menu-title">
+			MOBILE AND GAME PLATFORMS
+		</span>
+	</a>
+	
+</li>
+
+	</ul>
+</div>
+
+		</li>
+		<li id="pg554910955642177738" class="wsite-menu-item-wrap">
+			<a
+						href="contact.html"
+				class="wsite-menu-item"
+				>
+				Contact
+			</a>
+			
+		</li>
+		<li id="pg363241354787801324" class="wsite-menu-item-wrap">
+			<a
+						href="references.html"
+				class="wsite-menu-item"
+				>
+				REFERENCES
+			</a>
+			
+		</li>
+</ul>
+</div>
+
+			<div id="main-content">
+
+				<!-- banner-wrap -->
+				<div id="banner-wrap">
+					<div class="wsite-elements wsite-not-footer wsite-header-elements">
+	<div class="wsite-section-wrap">
+	<div  class="wsite-section wsite-header-section wsite-section-bg-color" style="background-color: #ffffff;background-image: none;is_customized: 1;" >
+		<div class="wsite-section-content">
+			
+						<div id="banner">
+				<div class="wsite-section-elements">
+					<h2 class="wsite-content-title"><font color="#2a2a2a">Content Management System</font></h2>
+
+<div><div class="wsite-multicol"><div class="wsite-multicol-table-wrap" style="margin:0 -15px;">
+	<table class="wsite-multicol-table">
+		<tbody class="wsite-multicol-tbody">
+			<tr class="wsite-multicol-tr">
+				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+					
+						
+
+<div class="paragraph" style="text-align:justify;"><font color="#2a2a2a">A content management system, often abbreviated as&nbsp;<span style="font-weight:600">CMS</span>, is software that helps users create, manage, and modify content on a website without the need for specialized technical knowledge. In simpler language, a content management system is a tool that helps you build a website without needing to write all the code from scratch (or even know how to code at all).<br />Instead of building your own system for creating web pages, storing images, and other functions, the content management system handles all that basic infrastructure stuff for you so that you can focus on more forward-facing parts of your website.</font><br /><br /><br /><br /></div>
+
+
+					
+				</td>				<td class="wsite-multicol-col" style="width:50%; padding:0 15px;">
+					
+						
+
+<div class="wsite-youtube" style="margin-bottom:10px;margin-top:10px;"><div class="wsite-youtube-wrapper wsite-youtube-size-auto wsite-youtube-align-inherit">
+<div class="wsite-youtube-container">
+
+<iframe src="http://www.youtube.com/embed/nrbpOmNC_mM?wmode=opaque" frameborder="0" allowfullscreen></iframe>
+</div>
+</div></div>
+
+
+					
+				</td>			</tr>
+		</tbody>
+	</table>
+</div></div></div>
+
+<div class="paragraph" style="text-align:justify;"><font color="#2a2a2a"><font size="5">How Does a Content Management System Work?</font><br /><br />To give you an idea of how a content management system works, we&rsquo;re going to take a whirlwind tour of the WordPress interface (<a href="https://kinsta.com/knowledgebase/what-is-wordpress/"><font color="#2a2a2a">WordPress</font></a>&nbsp;is a good example of a content management system).<br />Let&rsquo;s start with creating a piece of content.&nbsp;Without&nbsp;a content management system, you&rsquo;d need to write a static&nbsp;<a href="https://kinsta.com/knowledgebase/how-to-upload-html-file-to-wordpress/"><font color="#2a2a2a">HTML file and upload it to your server</font></a>&nbsp;(<em>sounds complicated, right?</em>).<br />With&nbsp;a content management system like WordPress, you can just write your content in an interface that looks a good bit like Microsoft Word:</font></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:inherit">
+<a>
+<img src="uploads/1/4/0/6/140651045/what-is-a-content-management-system-1_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph" style="text-align:justify;"><font color="#2a2a2a">That&rsquo;s a lot simpler, right?<br />Similarly, to upload and manage media, like images, you can just browse the media library instead of needing to actually interact with your web server directly:</font></div>
+
+<div><div class="wsite-image wsite-image-border-none " style="padding-top:10px;padding-bottom:10px;margin-left:0;margin-right:0;text-align:inherit">
+<a>
+<img src="uploads/1/4/0/6/140651045/what-is-a-content-management-system-2_orig.png" alt="Picture" style="width:auto;max-width:100%" />
+</a>
+<div style="display:block;font-size:90%"></div>
+</div></div>
+
+<div class="paragraph" style="text-align:justify;"><font color="#2a2a2a">The content management system isn&rsquo;t just a backend management interface, though. It also makes all of the content that you create show up for your visitors exactly like you want it to.<br /><br /><font size="5">What Makes up a Content Management System?<br />&#8203;</font><br />On a more technical level, a content management system is made up of two core parts:</font><ul><li><font color="#2a2a2a"><span style="font-weight:600">A content management application (CMA)</span>&nbsp;&ndash; this is the part that allows you to actually add and manage content on your site (like you saw above).</font></li><li><font color="#2a2a2a"><span style="font-weight:600">A content delivery application (CDA)</span>&nbsp;&ndash; this is the backend, behind-the-scenes process that takes the content you input in the CMA, stores it properly, and makes it visible to your visitors.</font></li></ul> <font color="#2a2a2a">Together, the two systems make it easy to maintain your website.<br /><br />What Are Examples of Popular Content Management Systems?&nbsp;WordPress, which we showed you above, is the best example of a popular content management system. While there are certainly other content management systems in existence, WordPress maintains over&nbsp;<font color="#2a2a2a"><a href="https://kinsta.com/wordpress-market-share/"><font color="#2a2a2a">a 43.3% market share</font></a>&nbsp;</font>on websites with a known content management system.<br /><br />Note that when we mention &ldquo;WordPress&rdquo;, we&rsquo;re&nbsp;<a href="https://kinsta.com/blog/wordpress-com-vs-wordpress-org/"><font color="#2a2a2a">not talking about WordPress.com</font></a>. Instead, we&rsquo;re focused on&nbsp;<a href="https://wordpress.org/" target="_blank">WordPress.org</a>, which is the website where the actual open-source WordPress content management system is stored.<br />Beyond the self-hosted WordPress software, other&nbsp;<a href="https://kinsta.com/blog/cms-software/"><font color="#2a2a2a">popular content management systems</font></a>&nbsp;include:</font><ul><li><a href="https://kinsta.com/blog/joomla-vs-wordpress/"><font color="#2a2a2a">Joomla</font></a></li><li><a href="https://kinsta.com/blog/wordpress-vs-drupal/"><font color="#2a2a2a">Drupal</font></a></li><li><font color="#2a2a2a"><a href="https://kinsta.com/magento-market-share/"><font color="#2a2a2a">Magento</font></a>&nbsp;(for eCommerce stores)</font></li><li><a href="https://kinsta.com/blog/squarespace-vs-wordpress/"><font color="#2a2a2a">Squarespace</font></a></li><li><a href="https://kinsta.com/wix-market-share/"><font color="#2a2a2a">Wix</font></a></li><li><font color="#2a2a2a">TYPO3</font></li><br /></ul> <font color="#2a2a2a">There are also lots of other less well-known&nbsp;<font color="#2a2a2a"><a href="https://kinsta.com/blog/best-blogging-platform/"><font color="#2a2a2a">content management systems</font></a>&nbsp;</font>that target themselves to large enterprises (with an expensive price point to match).<br />What Kinds of Websites Can You Build with Those Content Management Systems?&nbsp;Most content management systems are pretty flexible nowadays. While there are some that focus on a specific use &ndash; like Magento and eCommerce &ndash; most of the popular content management systems can be used to create essentially any type of website.<br />For example, you can use WordPress to power:</font><ul><li><u><a href="https://kinsta.com/blog/wordpress-vs-static-html/"><font color="#2a2a2a">Static websites</font></a></u></li><li><u><font color="#2a2a2a">Blogs</font></u></li><li><u><a href="https://kinsta.com/blog/woocommerce-tutorial/"><font color="#2a2a2a">eCommerce stores</font></a></u></li><li><u><a href="https://kinsta.com/knowledgebase/bbpress/"><font color="#2a2a2a">Forums</font></a></u></li><li><u><font color="#2a2a2a">Social networks</font></u></li><li><u><font color="#2a2a2a"><a href="https://kinsta.com/blog/wordpress-lms-plugins/"><font color="#2a2a2a">Online courses</font></a></font></u></li><li><u><font color="#2a2a2a"><a href="https://kinsta.com/blog/wordpress-membership-plugins/"><font color="#2a2a2a">Membership sites</font></a></font></u></li><li><u><a href="https://kinsta.com/blog/wordpress-portfolio-plugins/"><font color="#2a2a2a">Portfolios</font></a></u></li><li><font color="#2a2a2a">Etc.</font></li><br /></ul> <font color="#2a2a2a" size="5">What Is the Best CMS Platform?<br /></font><br /><font color="#2a2a2a">This is a little bit like asking, &ldquo;what is the best flavor of ice cream?&rdquo;.</font><br /><font color="#2a2a2a">Sure, everyone&rsquo;s got their answer, but it&rsquo;s difficult to come up with a factual argument for one content management system being the best in 100% of situations.</font><br /><font color="#2a2a2a">What we can do, though, is return to the numbers and make a suggestion that there&rsquo;s a reason WordPress has such a dominant share of the content management system market:</font><br /><font color="#2a2a2a">For&nbsp;<em>most</em>&nbsp;types of websites, it provides the most user-friendly, flexible solution. It&rsquo;s not&nbsp;<span style="font-weight:600">always</span>&nbsp;the best option, but it is the best option&nbsp;<span style="font-weight:600">most of the time</span>.</font><br /><font color="#2a2a2a">For a deeper comparison of some of the popular content management systems, you can view our posts on:</font><ul><li><a href="https://kinsta.com/blog/wordpress-vs-drupal/"><font color="#2a2a2a">WordPress vs Drupal</font></a></li><li><a href="https://kinsta.com/blog/squarespace-vs-wordpress/"><font color="#2a2a2a">WordPress vs Squarespace</font></a></li><br /></ul> <font color="#2a2a2a" size="5">How to Build a Website with a Content Management System<br />&#8203;</font><font color="#2a2a2a">Want to build your own website with a content management system? If so, the general process looks something like this:</font><ul><li><font color="#2a2a2a">Purchase and&nbsp;<a href="https://kinsta.com/blog/how-much-does-a-domain-name-cost/"><font color="#2a2a2a">a domain name</font></a></font></li><li><font color="#2a2a2a">Install your content management system of choice on your web server</font></li><li><font color="#2a2a2a">Configure the content management system to dictate how your site looks and functions</font></li><li><font color="#2a2a2a">Start writing content using the content management system&rsquo;s interface</font></li></ul> <font color="#2a2a2a">It&rsquo;s actually surprisingly simple. And hosts&nbsp;<a href="https://kinsta.com/"><font color="#2a2a2a">like Kinsta</font></a>&nbsp;can even help install the content management system for you (WordPress, in this case), so you can jump straight into building your site without any technical setup.</font><br /><br /><br /></div>
+				</div>
+			</div>
+					
+		</div>
+		<div class=""></div>
+	</div>
+</div>
+
+</div>
+
+				</div>
+				<!-- end banner-wrap -->
+
+				<div id="main-wrap" class="content-wrap">
+					<div id="wsite-content" class="wsite-elements wsite-not-footer">
+	<div class="wsite-section-wrap">
+	<div class="wsite-section wsite-body-section wsite-background-18 wsite-custom-background"  >
+		<div class="wsite-section-content">
+						<div class="container">
+			<div class="wsite-section-elements">
+				
+			</div>
+		</div>
+					</div>
+
+	</div>
+</div>
+
+</div>
+
+				</div>
+				<!-- end main-wrap -->
+
+				<!-- footer-wrap -->
+				<div id="footer-wrap">Create a <a target="_top" href="http://www.weebly.com/">free web site</a> with <a target="_top" href="http://www.weebly.com/" title="free web site">Weebly</a></div>
+				<!-- end footer-wrap -->
+
+			</div>
+		</div>
+	</div>
+	<!-- end wrapper -->
+
+	<!-- JavaScript -->
+	<script type="text/javascript" src="files/theme/plugins.js" ></script>
+	<script type="text/javascript" src="files/theme/custom.js"></script>
+	<script type="text/javascript" src="files/theme/mobile.js"></script>
+
+    <div id="customer-accounts-app"></div>
+    <script src="http://cdn2.editmysite.com/js/site/main-customer-accounts-site.js?buildTime=1234"></script>
+
+		
+	</body>
+</html>
